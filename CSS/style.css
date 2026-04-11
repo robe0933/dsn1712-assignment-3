@@ -1,0 +1,68 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: #000;
+    color: #fff;
+}
+
+.header .wrapper {
+    display: flex;
+    max-width: 940px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
