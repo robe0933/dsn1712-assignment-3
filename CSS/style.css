@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.3;
+}
+
 .header {
     background-color: #000;
     color: #fff;
@@ -49,6 +54,7 @@ nav a {
     color: #fff;
     padding: 1em 1.5em;
     text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
 }
 
 #about-me .wrapper {
@@ -114,19 +120,21 @@ nav a {
 #work .wrapper {
     max-width: 940px;
     margin: 0 auto;
+    padding: 2em;
 }
 
 #work h2, #work p {
     max-width: 940px;
     margin: 0 auto;
     text-align: center;
+    padding: 0.5em;
 }
 
 #work .wrapper > div {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 1fr);
-
+    padding: 1em;
     grid-template-areas: 
     "a a a b b b"
     "c c d d e e"
@@ -136,6 +144,7 @@ nav a {
 #work img {
     width: 100%;
     height: 100%;
+    
 }
 
 #work img:nth-child(1) {
@@ -163,6 +172,7 @@ nav a {
     background-color: #000;
     color: #fff;
     text-align: center;
+    padding: 1em;
 }
 
 
