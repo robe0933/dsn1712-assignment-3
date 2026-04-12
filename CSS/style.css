@@ -62,13 +62,53 @@ nav a {
 
 
 
+#services {
+    background-color: #fafafa
+}
+
+#services .wrapper {
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+#services .wrapper > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4em;
+    padding: 1em 3em 3em;
+}
+
+#services h2 {
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+}
 
 
+#services article {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 1em;
+}
 
+#services .btn {
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    margin-top: auto;
+    background-color: #000;
+    padding: 1em;
+    border-radius: 5px;
+    align-self: flex-start;
+}
 
-
-
-
+#services .btn:hover {
+    background-color: #fff;
+    color: #000;
+}
 
 
 
